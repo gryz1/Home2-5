@@ -14,12 +14,15 @@ a {
 }
 
 .header {
+    padding: 0 20px;
+    background-color: black;
+}
+
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    padding: 0 20px;
-    background-color: black;
 }
 
 .logo-link {
