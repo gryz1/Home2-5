@@ -116,3 +116,29 @@ a {
 .nav-list li:last-of-type a svg {
     width: 1em;
 }
+
+.nav-toggle {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.burger-icon {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -0.125em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .nav-list {
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+    }
+}
